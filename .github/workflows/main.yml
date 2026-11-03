@@ -1,0 +1,32 @@
+text
+TropicalTVLauncher/
+├── settings.gradle
+├── build.gradle
+├── gradle.properties
+└── app/
+    ├── build.gradle
+    ├── proguard-rules.pro
+    └── src/
+        └── main/
+            ├── AndroidManifest.xml
+            ├── java/
+            │   └── com/
+            │       └── tropical/
+            │           └── tvlauncher/
+            │               ├── MainActivity.kt
+            │               ├── adapter/
+            │               │   └── AppListAdapter.kt
+            │               └── utils/
+            │                   └── PrayerTimeUtils.kt
+            └── res/
+                ├── drawable/
+                │   ├── ic_settings.xml
+                │   ├── ic_wifi.xml
+                │   └── ic_wifi_off.xml
+                ├── layout/
+                │   ├── activity_main.xml
+                │   └── item_app.xml
+                └── values/
+                    ├── colors.xml
+                    ├── strings.xml
+                    └── themes.xml
